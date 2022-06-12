@@ -1,0 +1,167 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  max-width: 60em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h1 {
+  margin-top: 1em;
+}
+
+body header div {
+  width: 30em;
+  height: 30em;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+body header div:nth-of-type(2) {
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header div:nth-of-type(2) p {
+  color: white;
+  text-align: center;
+}
+
+body header div:nth-of-type(2):hover {
+  background-color: black;
+  opacity: .8;
+  position: absolute;
+}
+
+body div {
+  max-width: 240em;
+  max-height: 120em;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+body div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: grey;
+  margin: 2px;
+}
+
+body div div div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: start;
+  padding-left: 1em;
+  padding-top: .5em;
+  color: black;
+  font-size: large;
+  letter-spacing: 1.5px;
+}
+
+body div div div:nth-of-type(1) span {
+  background-color: black;
+  opacity: .5;
+  height: 2em;
+  width: 2em;
+  border-radius: 1rem;
+}
+
+body div div div:nth-of-type(2) {
+  text-align: center;
+  padding-bottom: 1em;
+  color: black;
+  letter-spacing: 1px;
+}
+
+body div div#card5 {
+  background-color: #a2b9bc;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  outline: outset 5px rgba(0, 0, 0, 0.2);
+}
+
+body div div#card5 div {
+  background-color: transparent;
+}
+
+body div div#card1 {
+  background-color: #b2ad7f;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  outline: outset 5px rgba(0, 0, 0, 0.2);
+}
+
+body div div#card1 div {
+  background-color: transparent;
+}
+
+body div div#card4 {
+  background-color: #878f99;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  outline: outset 5px rgba(0, 0, 0, 0.2);
+}
+
+body div div#card4 div {
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
